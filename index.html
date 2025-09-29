@@ -2,22 +2,167 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>RedSeam Clothing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
+<body>
+    <script src="script.js"></script>
     <div class="header">
         <div class="logo">
             <img src="assets/logo.svg" alt="Logo">
             <span class="brand-name">RedSeam Clothing</span>
         </div>
-         <div class="header-icons">
+        <div class="header-icons">
             <i id="cart" class="fas fa-shopping-cart"></i>
             <img src="assets/photo.svg" alt="Logo">
             <i id="dropdown" class="fas fa-chevron-down"></i>
         </div>
+    </div>
+
+    <div class="headline">
+        <h1>Products</h1>
+    </div>
+
+<div class="results">
+    <span class="results-text">Showing 1–10 of 100 results</span>
+    <span class="separator">|</span>
+    <span class="filter"><img class="filter-img" src="assets/filter.svg">Filter</span>
+    <span class="sort">Sort by</span>
+    <i id="sorting" class="fas fa-chevron-down"></i>
+</div>
+    <div class="product-container">
+        <div class="product-grid">
+            <!-- Product N1 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product1.svg" alt="Kids' Curved Hilfiger Graphic T-Shirt">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Curved Hilfiger Graphic T-Shirt</div>
+                    <div class="product-price">$ 25</div>
+                </div>
+            </div>
+
+            <!-- Product N2 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product2.svg" alt="Kids' Script Foil Logo T-Shirt">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Script Foil Logo T-Shirt</div>
+                    <div class="product-price">$ 65</div>
+                </div>
+            </div>
+
+            <!-- Product N3 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product3.svg" alt="Kids' Varsity Logo T-Shirt">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Varsity Logo T-Shirt</div>
+                    <div class="product-price">$ 80</div>
+                </div>
+            </div>
+
+            <!-- Product N4 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product4.svg" alt="Kids' Crewneck Sweater">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Crewneck Sweater</div>
+                    <div class="product-price">$ 45</div>
+                </div>
+            </div>
+
+            <!-- Product N5 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product5.svg" alt="Kids' Polo Shirt">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Polo Shirt</div>
+                    <div class="product-price">$ 35</div>
+                </div>
+            </div>
+
+            <!-- Product N6 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product6.svg" alt="Kids' Long Sleeve Shirt">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Long Sleeve Shirt</div>
+                    <div class="product-price">$ 55</div>
+                </div>
+            </div>
+
+            <!-- Product N7 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product7.svg" alt="Kids' Casual Shorts">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Casual Shorts</div>
+                    <div class="product-price">$ 30</div>
+                </div>
+            </div>
+
+            <!-- Product N8 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product8.svg" alt="Kids' Hoodie">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Hoodie</div>
+                    <div class="product-price">$ 60</div>
+                </div>
+            </div>
+
+                 <!-- Product N9 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product9.svg" alt="Kids' Casual Shorts">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Kids' Varsity Logo T-Shirt</div>
+                    <div class="product-price">$ 80</div>
+                </div>
+            </div>
+
+                 <!-- Product N10 -->
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="assets/product10.svg" alt="Kids' Casual Shorts">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Regular Fit 7" Comfort Waist Tommy Short</div>
+                    <div class="product-price">$ 45</div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+<div class="pagination-container">
+    <div class="pagination">
+        <a href="#" class="pagination-btn-arrow">‹</a>
+        <a href="#" class="pagination-btn active">1</a>
+        <a href="#" class="pagination-btn">2</a>
+        <div class="pagination-dots">...</div>
+        <a href="#" class="pagination-btn">9</a>
+        <a href="#" class="pagination-btn">10</a>
+        <a href="#" class="pagination-btn-arrow">›</a>
+    </div>
+</div>
 
 
 </body>
